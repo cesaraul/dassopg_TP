@@ -20,7 +20,7 @@ class Model:
         print("update data")
         self.prices = []
         for o in data:
-            self.prices.append(Moneda(o["id"],o["name"],o["value1"],o["value2"]))
+            self.prices.append(Moneda(o["Id"],o["Nombre"],o["Compra"],o["Venta"]))
 
 
 
